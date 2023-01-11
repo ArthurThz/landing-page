@@ -1,0 +1,571 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Roboto';
+    text-align: justify;
+
+}
+
+.land-content {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.656), rgba(0, 0, 0, 0.16)), url(../img/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+.top-container {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: #fff;
+
+}
+
+.top-container p {
+
+    font-size: 35px;
+}
+
+.top-container a {
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 15px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    
+
+}
+
+.top-container a:hover{
+    color: rgba(254, 108, 55, 0.734);
+}
+
+
+.top-container .btn-login {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 1px solid #fff;
+    height: 35px;
+    width: 100px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+
+}
+
+.top-container .btn-login:hover {
+
+    background-color:rgba(254, 108, 55, 0.734) ;
+    font-size: 23px;
+    
+
+}
+
+.top-info {
+
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.top-info h1 {
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.top-info p {
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.top-info .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.top-info .input p {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.top-info .input input {
+    width: 400px;
+    height: 32px;
+    border: 0;
+    border-radius: 2px;
+    padding: 4px 10px;
+}
+
+.top-info .input button {
+
+    width: 140px;
+    border: 0;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    background-color: rgb(254, 108, 55);
+    color: #fff;
+    transition: 0.7s;
+    cursor: pointer;
+
+
+}
+
+.top-info .input button:hover {
+    background-color: rgba(254, 108, 55, 0.734);
+    font-size: 17px;
+
+}
+
+.trip-grid {
+    background-color: rgb(41, 40, 40);
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    padding: 0 20px;
+
+
+
+}
+
+
+.text-grid {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+}
+
+.text-grid img {
+    height: 300px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.title-grid {
+
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.description-grid {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description-grid h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.description-grid p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.get-lost {
+    height: 400px;
+    background-color: grey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.508), rgba(0, 0, 0, 0.413)), url(../img/fundo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.get-lost h3 {
+    font-weight: 400;
+    font-size: 40px;
+
+}
+
+.get-lost p {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.get-lost button {
+    border: none;
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(254, 108, 55);
+    color: #fff;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.get-lost button:hover {
+
+    background-color: rgb(250, 155, 120);
+
+}
+
+.comments {
+    height: 600px;
+    justify-content: space-between;
+    color: rgb(74, 74, 74);
+    background-color: rgb(224, 228, 228);
+
+}
+
+.comments .comment-title {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-title h3 {
+
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.comment-block {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+
+
+
+}
+
+.current-comment {
+
+    width: 400px;
+    height: auto;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px;
+
+}
+
+.comment-text {
+
+    width: 100%;
+    height: 200px;
+
+}
+
+.current-comment img {
+    width: 350px;
+}
+
+.current-comment h3 {
+
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.current-comment p {
+
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.price {
+    height: 600px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price .left-side {
+
+    height: 500px;
+    padding: 20px 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.left-side .allinclusive {
+
+    font-weight: 300;
+    font-size: 25px;
+
+}
+
+.left-side .p-price {
+
+    font-family: 'Outfit';
+    color: rgb(254, 108, 55);
+    font-size: 55px;
+    font-weight: bold;
+
+}
+
+.left-side button {
+
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 70px;
+    background-color: rgb(254, 108, 55);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.left-side button:hover {
+
+    background-color: rgb(250, 155, 120);
+    font-size: 25px;
+
+}
+
+.left-side .experience {
+
+    font-size: 22px;
+    font-weight: bold;
+
+
+}
+
+.price .right-side {
+
+    width: 900px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 20px;
+    align-items: center;
+
+}
+
+.right-side .guarantees {
+
+    width: 400px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px
+}
+
+
+
+.guarantees .text {
+
+    width: 280px;
+    height: 120px;
+    margin: 0 10px;
+
+}
+
+
+.people-comment {
+    
+    height: 250px;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+.people-comment .user-img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    padding: 0 10px;
+    margin: 0;
+    transition: ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.people-comment .post-comment {
+
+    width: 60%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.post-comment .user-name, .user-comment{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.post-comment .user-comment {
+
+    width: 80%;
+    height: 100px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
+.text .title {
+
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.text .description {
+
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 300;
+
+}
+
+.bottom {
+
+    display: flex;
+    height: 700px;
+    background-color: forestgreen;
+    font-family: 'Roboto';
+    
+}
+
+.bottom .left-side-bottom {
+
+    width: 70%;
+    height: 100%;
+    background-color: rgb(41, 40, 40);
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: left;
+    color: #fff;
+    
+}
+.left-side-bottom .title {
+
+    font-size: 35px;
+    font-weight:400;
+    text-align: justify;
+    padding:10px 10px;
+
+}
+.left-side-bottom .description{
+
+
+    font-size:20px;
+    padding: 10px 10px;
+    font-weight: 200;
+
+
+}
+
+.left-side-bottom button{
+
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(254, 108, 55);
+    border: none;
+    color: #fff;
+    transition: 0.7s;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin:10px 10px;
+
+}
+
+.left-side-bottom button:hover{
+    background-color: rgb(250, 155, 120);
+    font-size: 25px;
+}
+
+.bottom .right-side-bottom img{
+
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+footer {
+
+    height:80px;
+    background-color:rgb(30, 28, 28) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
